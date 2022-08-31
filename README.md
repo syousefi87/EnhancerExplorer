@@ -15,3 +15,15 @@ EnhancerExplorer can be seen on `http//:....` .
 - install.packages(c("data.table", "shiny", "DT", "dplyr","devtools"), type="source")
 - devtools::install_github("syousefi87/EnhancerExplorer")
 - EnhancerExplorer::runApp()
+
+#### Run EnhancerExplorer using Docker
+##### For Linux:
+- Install Docker --> https://docs.docker.com/desktop/install/linux-install/ or https://anaconda.org/conda-forge/docker.
+- Run `docker run -p 3838:3838 -d soheilyousefi/enhancerexplorer:V1`.
+- Navigate to http://localhost:3838/.
+##### For Windows:
+- Download Docker Desktop from https://www.docker.com/.
+- Install the downloaded '.exe' file.
+- Open the installed Docker Desktop.
+- Open Command Prompt and run `docker run -p 3838:3838 -d soheilyousefi/enhancerexplorer:V1`.
+- Navigate to http://localhost:3838/.
