@@ -23,7 +23,7 @@ EnhancerExplorer can be seen on `http//:....` .
 - Navigate to http://localhost:3838/.
 ##### For Windows:
 - Download Docker Desktop from https://www.docker.com/.
-- Install the downloaded '.exe' file.
+- Install the downloaded *.exe* file.
 - Open the installed Docker Desktop.
 - Open Command Prompt and run `docker run -p 3838:3838 -d soheilyousefi/enhancerexplorer:V1`.
 - Navigate to http://localhost:3838/.
