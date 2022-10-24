@@ -20,7 +20,7 @@ EnhancerExplorer can be seen on `http//:....` .
 ##### For Linux:
 - Install Docker using https://docs.docker.com/desktop/install/linux-install/ or https://anaconda.org/conda-forge/docker.
 - Run `docker run -p 8038:8038 -d soheilyousefi/enhancerexplorer:V2`.
-- Navigate to http://localhost:3838/.
+- Navigate to http://localhost:8038/.
 ##### For Windows:
 - Download and install Docker Desktop from https://www.docker.com/.
 - Open the installed Docker Desktop.
