@@ -6,7 +6,7 @@ It allows the exploration of putative functional enhancers, derived from epigeno
 
 #### Run EnhancerExplorer locally in R-studio
 - Install R/R-studio and the required R packages (install.packages(c('shiny','ggplot2','data.table','DT','dplyr','tidyr','tibble','VennDiagram','shinyjs','htmltools','tools','gridExtra','fst','reshape2','ggpubr','egg'), type="source")).
-- Download the app.R and Data files in the same folder. You can download data from https://figshare.com/projects/EnhancerExplorer/146736.
+- Download the app.R and Data files in the same folder. Download data from https://figshare.com/projects/EnhancerExplorer/146736.
 - Run app.R in R-studio.
 
 #### Run EnhancerExplorer by pulling data from Docker hub
