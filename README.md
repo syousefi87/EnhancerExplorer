@@ -8,13 +8,8 @@ EnhancerExplorer can be seen on `http//:....` .
 
 #### Run EnhancerExplorer locally in R-studio
 - Install R/R-studio and the required R packages (install.packages(c('shiny','ggplot2','data.table','DT','dplyr','tidyr','tibble','VennDiagram','shinyjs','htmltools','tools','gridExtra','fst','reshape2','ggpubr','egg'), type="source")).
-- Download the app.R and Data files in the same folder.
+- Download the app.R and Data files in the same folder. You can download data from `https://figshare.com/projects/EnhancerExplorer/146736`.
 - Run app.R in R-studio.
-
-#### If using the local GitHub, run the following command in R or Rstudio to download and install the required packages.
-- install.packages(cc('shiny','ggplot2','data.table','DT','dplyr','tidyr','tibble','VennDiagram','shinyjs','htmltools','tools','gridExtra','fst','reshape2','ggpubr','egg'), type="source")
-- devtools::install_github("syousefi87/EnhancerExplorer")
-- EnhancerExplorer::runApp()
 
 #### Run EnhancerExplorer by pulling data from Docker hub
 ##### For Linux:
